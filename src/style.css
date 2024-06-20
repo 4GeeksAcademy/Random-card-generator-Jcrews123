@@ -1,1 +1,44 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  margin-top: 50px;
+  width: 350px;
+  height: 500px;
+  border-radius: 3%;
+}
+.suit {
+}
+.BRSuit {
+  display: flex;
+  position: absolute;
+  left: 300px;
+  top: 450px;
+  transform: rotate(180deg);
+  scale: 4;
+}
+.TLSuit {
+  display: flex;
+  margin-top: 20px;
+  scale: 4;
+  position: absolute;
+  left: 35px;
+  top: 15px;
+}
+
+.cardNumber {
+  text-align: center;
+  padding-top: 27%;
+  scale: 4;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
